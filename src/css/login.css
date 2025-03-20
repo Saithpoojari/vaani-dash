@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(
+      185.01deg,
+      #f1e5ed 3.7%,
+      #eff5ff 12.92%,
+      #e7e4df 52.14%,
+      #fbf2f2 95.97%
+    )
+    no-repeat;
+}
+.logo {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.right-img {
+  width: 50%;
+  margin: auto;
+}
+.height-100 {
+  height: 100vh;
+}
+.login-circle {
+  position: relative;
+}
+.login-circle::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: radial-gradient(
+    rgba(29, 68, 135, 0.14),
+    rgba(115, 115, 115, 0),
+    transparent
+  );
+  margin: auto;
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .login-circle {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  .login-circle::after {
+    width: 50vh;
+  }
+}
+.form-group .form-control {
+  padding-left: 30px;
+  height: 49px;
+  border-color: #1d4487;
+}
+.form-group svg {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.btn {
+  height: 49px;
+}
+.digit-group input {
+  border: none;
+  line-height: 50px;
+  text-align: center;
+}
+.digit-group input::-webkit-outer-spin-button,
+.digit-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.digit-group input[type="number"] {
+  -moz-appearance: textfield;
+}
+.digit-group label {
+  color: #1d4487;
+  font-weight: 500;
+}
+.btn-primary {
+  background-color: #f6821f;
+  border-color: #d3690d;
+}
+.btn-primary:hover {
+  background-color: #d3690d;
+  border-color: #f6821f;
+}
+canvas {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+.form-select {
+  height: 49px;
+}
+.back-btn {
+  color: #f6821f;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all ease 0.4s;
+  background: #fff;
+}
+.back-btn svg {
+  fill: #f6821f;
+}
+.back-btn:hover {
+  background: #f6821f;
+  color: #fff;
+}
+.back-btn:hover svg {
+  fill: #fff;
+}
+.powered-by a {
+  font-weight: 600;
+  color: #1f4585;
+  text-transform: uppercase;
+}
+.powered-by a::first-letter {
+  color: #f6821f;
+  text-transform: lowercase;
+}

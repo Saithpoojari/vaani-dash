@@ -1,0 +1,32 @@
+a, .click-to-call {
+  cursor: url('/img/hand-pointer.png'), auto;
+}
+a:active, .click-to-call:active {
+  cursor: url('/img/hand-pointer-pointer.png'), auto;
+}
+.moving-row {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+.moving-container {
+  background: #f3e6e6;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.object-title {
+  background: #FFF;
+  padding: 5px;
+}
+.moving-object {
+  padding: 5px;
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+.moving-object ul li {
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+}

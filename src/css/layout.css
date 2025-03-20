@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #103067 #d0cdcd;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: #d0cdcd;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #103067;
+  border-radius: 10px;
+  border: 3px solid #a44141;
+}
+body {
+  font-family: "poppinsblack";
+  font-family: "poppinsblack_italic";
+  font-family: "poppinsbold";
+  font-family: "poppinsbold_italic";
+  font-family: "poppinsextrabold";
+  font-family: "poppinsextrabold_italic";
+  font-family: "poppinsextralight";
+  font-family: "poppinsextralight_italic";
+  font-family: "poppinsitalic";
+  font-family: "poppinslight";
+  font-family: "poppinslight_italic";
+  font-family: "poppinsmedium";
+}
+.font-xs {
+  font-size: 0.8rem;
+}
+.font-sm {
+  font-size: 0.9rem;
+}
+.font-md {
+  font-size: 1rem;
+}
+.font-lg {
+  font-size: 1.2rem;
+}
+.font-xl {
+  font-size: 1.3rem;
+}
+.font-xxl {
+  font-size: 1.4rem;
+}
+.font-xxxl {
+  font-size: 1.5rem;
+}
+.color-nav {
+  color: #565656;
+}
+.color-white {
+  color: #fff;
+}
+.color-secondary {
+  color: #1f4585;
+}
+.color-primary {
+  color: #f6821f;
+}
+total,
+count,
+call-title,
+icon {
+  display: block;
+}
